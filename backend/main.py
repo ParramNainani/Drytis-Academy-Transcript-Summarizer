@@ -11,6 +11,8 @@ as static files, so the whole app is a single deployable service.
 """
 
 import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from typing import Optional
 
 from dotenv import load_dotenv
