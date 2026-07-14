@@ -1,0 +1,22 @@
+# --- Python / backend ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Secrets ---
+.env
+backend/.env
+
+# --- Frontend build output (generated at deploy time, never committed) ---
+backend/static/
+frontend/dist/
+frontend/node_modules/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
